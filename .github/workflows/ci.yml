@@ -7,7 +7,7 @@ on:
 
 jobs:
   run-tests:
-    runs-on: [self-hosted, stuycs-k]  # Use your runner's label
+    runs-on: [self-hosted, stuycs-n]  # Use your runner's label
 
     steps:
       - name: Checkout code
